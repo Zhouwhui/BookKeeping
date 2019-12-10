@@ -1,0 +1,24 @@
+#MyEclipse Hibernate Properties
+<<<<<<< HEAD
+#Sun Sep 08 18:39:39 CST 2019
+=======
+#Sun Sep 08 20:13:50 GMT+08:00 2019
+>>>>>>> branch 'master' of https://gitee.com/zhouwhui/BookKeeping.git
+genBasicCompId=false
+sessionFactoryName=
+profile=
+daoSFId=
+jndiPath=
+detectM2M=false
+reStrategyClass=
+detectO2O=false
+springDaoFile=
+useJavaTypes=true
+keyGenerator=
+genVersionTag=false
+sessionFactoryId=
+basePersistenceClass=
+genAnnotations=false
+reSettingsFile=/BookKeeping/hibernate.reveng.xml
+configFile=/BookKeeping/src/hibernate.cfg.xml
+createConfigFile=true

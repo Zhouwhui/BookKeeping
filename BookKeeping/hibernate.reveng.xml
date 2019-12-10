@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+	<table name="T_Bookkeeping" schema="dbo" catalog="BillAssistant"
+		class="model.TBookkeeping">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="T_PayType" schema="dbo" catalog="BillAssistant"
+		class="model.TPayType">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="T_Photo" schema="dbo" catalog="BillAssistant"
+		class="model.TPhoto">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="T_User" schema="dbo" catalog="BillAssistant"
+		class="model.TUser">
+		<primary-key>
+			<generator class="assigned"></generator>
+		</primary-key>
+	</table>
+	<table name="V_Statistics" schema="dbo" catalog="BillAssistant"
+		class="model.VStatistics">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="T_SortType" schema="dbo" catalog="BillAssistant"
+		class="model.TSortType">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="V_Statistics" schema="dbo" catalog="BillAssistant"
+		class="model.VStatistics">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="V_Bookkeeping" schema="dbo" catalog="BillAssistant"
+		class="model.VBookkeeping">
+		<primary-key>
+			<generator class="assigned"></generator>
+		</primary-key>
+	</table>
+	<table name="V_SortType" schema="dbo" catalog="BillAssistant"
+		class="model.VSortType">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+<table name="T_UserAndSortType" schema="dbo" catalog="BillAssistant"
+	class="model.TUserSortType">
+	<primary-key>
+		<generator class="assigned"></generator>
+	</primary-key>
+</table>
+</hibernate-reverse-engineering>
